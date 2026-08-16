@@ -1,0 +1,72 @@
+.app {
+  min-height: 100vh;
+  background: var(--color-bg);
+}
+
+section {
+  padding: 72px;
+}
+
+.section-eyebrow {
+  margin-bottom: 12px;
+  color: var(--color-accent);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.section-heading {
+  max-width: 680px;
+  margin-bottom: 40px;
+}
+
+.section-heading h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+.section-heading p {
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 24px;
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.button--dark {
+  background: var(--color-text);
+  color: white;
+}
+
+.button--light {
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+  background: white;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 0;
+    background: #fffdf9;
+  }
+
+  .page-shell {
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  section {
+    padding: 48px 24px;
+  }
+}

@@ -1,0 +1,171 @@
+.contact {
+  padding: 7rem 2rem;
+  background-color: #f7f4f1;
+}
+
+.contact__inner {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact__card {
+  padding: 3rem;
+
+  border: 1px solid #cbb9ac;
+  border-radius: 20px;
+
+  background-color: #fffdf9;
+  box-shadow: 0 12px 35px rgba(57, 43, 35, 0.06);
+}
+
+.contact .section-eyebrow {
+  margin: 0 0 0.75rem;
+  color: #765f51;
+
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.contact__card h2 {
+  max-width: 700px;
+  margin: 0 0 1.25rem;
+
+  color: #1f1a17;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.contact__description {
+  max-width: 720px;
+  margin: 0 0 2.5rem;
+
+  color: #574c45;
+
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+/* Kontaktuppgifter */
+
+.contact__info {
+  display: grid;
+  grid-template-columns: repeat(
+    3,
+    minmax(0, 1fr)
+  );
+  gap: 2rem;
+
+  margin-bottom: 2rem;
+  padding: 1.75rem 0;
+
+  border-top: 1px solid #ded4cc;
+  border-bottom: 1px solid #ded4cc;
+}
+
+.contact__item {
+  min-width: 0;
+}
+
+.contact__item span {
+  display: block;
+  margin-bottom: 0.4rem;
+
+  color: #765f51;
+
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.contact__item p {
+  margin: 0;
+  color: #574c45;
+  line-height: 1.6;
+}
+
+.contact__item a {
+  color: #574c45;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+  text-underline-offset: 3px;
+}
+
+.contact__item a:hover {
+  color: #1f1a17;
+}
+
+/* Knapp */
+
+.contact__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 52px;
+  padding: 0.85rem 1.8rem;
+
+  border: 1px solid #806656;
+  border-radius: 999px;
+
+  background-color: #806656;
+  color: #fffdf9;
+
+  font-weight: 600;
+  text-decoration: none;
+
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.contact__button:hover {
+  transform: translateY(-2px);
+  background-color: transparent;
+  color: #765f51;
+}
+
+.contact__button:focus-visible,
+.contact__item a:focus-visible {
+  outline: 3px solid #1f1a17;
+  outline-offset: 3px;
+}
+
+.contact__button-icon {
+  margin-left: 0.7rem;
+  font-size: 1.2rem;
+}
+/* Surfplatta */
+
+@media (max-width: 800px) {
+  .contact__info {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+/* Mobil */
+
+@media (max-width: 650px) {
+  .contact {
+    padding: 5rem 1.25rem;
+  }
+
+  .contact__card {
+    padding: 1.5rem;
+    border-radius: 16px;
+  }
+
+  .contact__description {
+    margin-bottom: 2rem;
+  }
+
+  .contact__button {
+    width: 100%;
+  }
+}

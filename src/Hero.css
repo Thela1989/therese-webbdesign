@@ -1,0 +1,272 @@
+.hero {
+  padding-inline: var(--page-padding);
+  background-color: #f7f4f1;
+}
+
+.hero__inner {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1fr)
+    minmax(320px, 1fr);
+
+  align-items: center;
+  gap: 56px;
+}
+
+.hero__content {
+  align-self: center;
+  max-width: 1000px;
+  padding-left: 20%;
+  transform: translateY(25px);
+}
+
+.hero__eyebrow {
+  margin: 0 0 16px;
+
+  color: #856951;
+
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.hero__title {
+  max-width: 720px;
+  margin: 0;
+
+  color: #1f1a17;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(48px, 4.8vw, 76px);
+  font-weight: 400;
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+}
+
+.hero__text {
+  max-width: 620px;
+  margin-top: 28px;
+
+  color: #574c45;
+
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.hero__buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  margin-top: 34px;
+}
+
+.button {
+  min-height: 48px;
+  padding: 0 26px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid transparent;
+  border-radius: 2px;
+
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  transition:
+    background-color 180ms ease,
+    color 180ms ease,
+    border-color 180ms ease,
+    transform 180ms ease;
+}
+.booking__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+.button--primary {
+  background-color: #806656;
+  color: #ffffff;
+  border-color: #806656;
+}
+
+.button--primary:hover {
+  background-color: #806656;
+  color: #ffffff;
+}
+.button--secondary {
+  background-color: transparent;
+  color: #1f1a17;
+  border-color: #cfc3ba;
+}
+
+.button--secondary:hover {
+  color: #8e7463;
+  border-color: #8e7463;
+}
+
+.hero__skills {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  margin-top: 42px;
+}
+
+.hero__skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+
+  color: #8e7463;
+}
+
+.hero__skill svg {
+  font-size: 25px;
+}
+
+.hero__skill span {
+  color: #574c45;
+  font-size: 11px;
+}
+
+.hero__visual {
+  min-width: 0;
+  height: 100%;
+  align-self: start;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.hero__image {
+  width: 100%;
+  max-width: 500px;
+  margin-right: 16%;
+  transform: translateY(-10px);
+}
+/* Surfplatta */
+
+@media (max-width: 1050px) {
+  .hero__inner {
+    min-height: auto;
+    padding-top: 48px;
+    padding-bottom: 0;
+
+    grid-template-columns: 1fr;
+    align-items: start;
+    gap: 42px;
+  }
+
+  .hero__content {
+    align-self: auto;
+    max-width: 780px;
+    padding-bottom: 0;
+  }
+
+  .hero__visual {
+    height: auto;
+    justify-content: flex-start;
+  }
+
+  .hero__image {
+    max-width: 520px;
+    max-height: none;
+  }
+}
+
+/* Mobil */
+
+@media (max-width: 700px) {
+  .hero__inner {
+    min-height: auto;
+    padding-top: 42px;
+    padding-bottom: 0;
+    gap: 36px;
+  }
+
+  .hero__eyebrow {
+    margin-bottom: 12px;
+
+    font-size: 11px;
+    letter-spacing: 0.13em;
+  }
+
+  .hero__title {
+    font-size: clamp(40px, 12vw, 56px);
+    line-height: 1.06;
+  }
+
+  .hero__text {
+    margin-top: 22px;
+
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  .hero__buttons {
+    flex-direction: column;
+    align-items: stretch;
+
+    margin-top: 28px;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .hero__skills {
+    gap: 22px;
+    margin-top: 34px;
+  }
+
+  .hero__skill svg {
+    font-size: 23px;
+  }
+
+  .hero__visual {
+    justify-content: center;
+  }
+
+  .hero__image {
+    max-width: 360px;
+    margin-inline: auto;
+  }
+}
+@media (max-width: 700px) {
+  .hero__content {
+    width: 100%;
+    max-width: 420px;
+    margin-inline: auto;
+    padding-left: 0;
+    transform: none;
+  }
+
+  .hero__visual {
+    display: none;
+  }
+  .about__image-wrapper {
+    width: 88%;
+    margin-inline: auto;
+  }
+
+  .about__image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
