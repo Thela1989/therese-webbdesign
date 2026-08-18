@@ -54,7 +54,9 @@ export const Navbar = () => {
             >
               Tjänster
             </a>
+          </li>
 
+          <li>
             <a href="#about" onClick={closeMenu}>
               Om mig
             </a>

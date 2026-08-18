@@ -122,7 +122,10 @@ const Services = () => {
           className="services__category"
           key={category.id}
         >
-          <div className="services__category-header">
+          <div
+            className="services__category-header"
+            id={category.id}
+          >
             <h3>{category.title}</h3>
             <p>{category.description}</p>
           </div>

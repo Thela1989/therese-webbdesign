@@ -40,14 +40,14 @@ const Footer = () => {
         <p className="footer__heading">
           Tjänster
         </p>
-        <a href="#services">Webbdesign</a>
-        <a href="#services">Frontend</a>
-        <a href="#services">Appar</a>
+        <a href="#webb">Webbdesign</a>
+
+        <a href="#appar">Appar</a>
       </div>
 
       <div className="footer__contact">
         <p className="footer__heading">Kontakt</p>
-        <p>hej@theresewebdesign.se</p>
+        <p>theresewebdesign@gmail.com</p>
         <p>Varberg / Distans</p>
         <div className="footer__socials">
           <a
