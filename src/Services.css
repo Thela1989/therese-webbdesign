@@ -91,17 +91,13 @@
 
 .services__card {
   display: flex;
-  min-height: 100%;
+  height: 100%;
   flex-direction: column;
   padding: 2rem;
   border: 1px solid #cbb9ac;
   border-radius: 20px;
   background-color: #fffdf9;
   box-shadow: 0 12px 35px rgba(57, 43, 35, 0.06);
-  transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease,
-    border-color 0.25s ease;
 }
 
 .services__card:hover {
@@ -143,13 +139,17 @@
   margin: 0 0 1.5rem;
   color: #574c45;
   line-height: 1.7;
+  min-height: 3.5rem;
 }
 
 .services__card ul {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-  margin: auto 0 0;
+  min-height: 150px;
+  margin-top: auto;
+  margin-bottom: 0;
+
   padding: 1.25rem 0 0;
   border-top: 1px solid #ded4cc;
   list-style: none;

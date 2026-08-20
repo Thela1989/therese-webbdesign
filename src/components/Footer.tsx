@@ -47,7 +47,10 @@ const Footer = () => {
 
       <div className="footer__contact">
         <p className="footer__heading">Kontakt</p>
-        <p>theresewebdesign@gmail.com</p>
+        <a href="mailto:hej@theresewebbdesign.se">
+          hej@theresewebbdesign.se
+        </a>
+
         <p>Varberg / Distans</p>
         <div className="footer__socials">
           <a

@@ -21,24 +21,35 @@ export default function About() {
           <h2>Hej! Jag heter Therese</h2>
 
           <p>
-            Jag är frontendutvecklare och
-            webdesigner med passion för att skapa
-            moderna, tydliga och användarvänliga
-            webbplatser.
+            För mig är det viktigt att design och
+            struktur hänger ihop, så att det blir
+            enkelt för besökaren att förstå
+            innehållet och hitta rätt. En bra
+            hemsida ska inte b
           </p>
 
           <p>
-            Jag tycker om att kombinera design,
-            struktur och kod för att skapa
-            lösningar som både känns genomtänkta
-            och fungerar bra i praktiken.
+            För mig är det viktigt att design och
+            struktur hänger ihop, så att det blir
+            enkelt för besökaren att förstå
+            innehållet och hitta rätt.
           </p>
 
           <p>
-            För mig handlar en hemsida inte bara
-            om utseende, utan om att skapa en
-            trygg och enkel upplevelse för både
-            företagaren och besökaren.
+            En bra hemsida ska inte bara se bra
+            ut. Den ska också kännas enkel att
+            använda och hjälpa företaget att nå
+            fram med det de vill erbjuda.
+          </p>
+          <p>
+            Under min LIA på Region Halland fick
+            jag arbeta med en riktig
+            webbapplikation tillsammans med andra
+            utvecklare. Det gav mig en bättre
+            förståelse för hur utveckling fungerar
+            i ett team och hur viktigt det är att
+            bygga lösningar som är tydliga och
+            enkla för användaren.
           </p>
         </div>
       </div>

@@ -47,10 +47,10 @@ const Projects = () => {
         <p className="section-eyebrow">Projekt</p>
         <h2>Utvalda projekt</h2>
         <p>
-          Här är några exempel på projekt och
-          idéer där jag kombinerar design,
-          struktur och kod för att skapa tydliga
-          digitala lösningar.
+          Här visar jag några projekt och idéer
+          jag har arbetat med, där fokus ligger på
+          tydlighet, användarvänlighet och
+          genomtänkta digitala lösningar.
         </p>
       </div>
 

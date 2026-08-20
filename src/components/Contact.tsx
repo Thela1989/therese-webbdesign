@@ -15,13 +15,12 @@ const Contact = () => {
           </h2>
 
           <p className="contact__description">
-            Oavsett om du behöver en ny webbplats,
-            vill förbättra något du redan har
-            eller funderar på en digital lösning,
-            är du välkommen att höra av dig. Vi
-            börjar med ett kostnadsfritt samtal
-            där vi går igenom dina behov och nästa
-            steg.
+            Behöver du en ny hemsida, vill
+            förbättra den du redan har eller har
+            en idé du vill utveckla? Hör gärna av
+            dig så pratar vi om vad du behöver och
+            hur jag kan hjälpa dig vidare. Första
+            samtalet är kostnadsfritt.
           </p>
 
           <div className="contact__info">
@@ -29,7 +28,7 @@ const Contact = () => {
               <span>E-post</span>
 
               <a href="mailto:hej@theresewebdesign.se">
-                theresewebbdesign@gmail.com
+                hej@theresewebbdesign.se
               </a>
             </div>
 
@@ -49,7 +48,7 @@ const Contact = () => {
           </div>
 
           <a
-            href="mailto:theresewebbdesign@gmail.com"
+            href="mailto:hej@theresewebbdesign.se"
             className="contact__button"
           >
             Skicka mejl

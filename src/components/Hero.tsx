@@ -24,19 +24,20 @@ export default function Hero() {
             className="hero__title"
             order={1}
           >
-            Digitala lösningar för företag som
-            vill{" "}
+            Tydliga och användarvänliga
+            webbplatser för{" "}
             <span className="colored_word">
-              växa
+              Småföretag
             </span>
           </Title>
 
           <Text className="hero__text">
-            Jag hjälper företag att skapa moderna,
-            användarvänliga webbplatser och appar
-            med tydlig design och genomtänkta
-            funktioner – anpassade efter just ditt
-            behov.
+            För mig handlar bra digitala lösningar
+            om att de ska vara tydliga, enkla att
+            använda och faktiskt fylla ett behov.
+            Därför hjälper jag företag att skapa
+            webbplatser och appar som är anpassade
+            efter just deras verksamhet.
           </Text>
 
           <div className="hero__buttons">

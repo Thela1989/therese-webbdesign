@@ -11,28 +11,28 @@ const serviceCategories = [
     id: "webb",
     title: "Webbplatser",
     description:
-      "För dig som behöver en ny hemsida eller vill förbättra en befintlig.",
+      "För dig som behöver en ny hemsida eller vill förbättra den du redan har.",
     packages: [
       {
         title: "Mini-analys",
         subtitle:
           "För dig som redan har en hemsida",
-        text: "Jag går igenom din nuvarande hemsida och ger konkreta förbättringsförslag.",
+        text: "Jag går igenom din hemsida och lyfter fram vad som kan bli tydligare och enklare för dina besökare.",
         features: [
           "Genomgång av din hemsida",
           "3 konkreta förbättringsförslag",
-          "Fokus på mobil och användarvänlighet",
+          "Fokus på tydlighet, mobil och användarvänlighet",
         ],
         icon: <FiSearch aria-hidden="true" />,
       },
       {
         title: "Webbstart",
         subtitle:
-          "För dig som behöver en enkel hemsida",
-        text: "Ett mindre hemsidepaket för en tydlig och professionell närvaro online.",
+          "För dig som behöver en mindre hemsida",
+        text: "För dig som vill komma igång med en tydlig hemsida där kunder enkelt kan förstå vad du erbjuder och kontakta dig.",
         features: [
           "Responsiv hemsida",
-          "Modern design",
+          "Tydlig presentation av ditt företag",
           "Kontaktsektion",
         ],
         icon: (
@@ -42,11 +42,11 @@ const serviceCategories = [
       {
         title: "Webbpaket",
         subtitle:
-          "För dig som behöver en mer komplett hemsida",
-        text: "En större webbplats med fler sektioner och mer anpassat innehåll.",
+          "För dig som behöver en större hemsida",
+        text: "För dig som behöver mer utrymme för att presentera ditt företag, dina tjänster och ditt innehåll.",
         features: [
           "Flera sidor eller sektioner",
-          "Anpassad design",
+          "Design anpassad efter ditt företag",
           "Mobilanpassning",
           "Kontaktformulär",
         ],
@@ -60,17 +60,18 @@ const serviceCategories = [
     id: "appar",
     title: "Appar och digitala lösningar",
     description:
-      "För dig som har en idé och vill ta fram en tydlig och fungerande digital lösning.",
+      "För dig som har en appidé eller digital idé och vill ta den vidare till en första fungerande version.",
     packages: [
       {
         title: "Idé och MVP-planering",
         subtitle:
-          "För dig som vill strukturera din idé",
-        text: "Vi går igenom målgrupp, behov och vilka funktioner som bör ingå först.",
+          "För dig som vill få struktur på din idé",
+        text: "Vi går igenom vem lösningen är till för, vilket problem den ska lösa och vad som behöver finnas med i en första version.",
         features: [
           "Genomgång av idén",
+          "Målgrupp och behov",
           "Prioritering av funktioner",
-          "Förslag på MVP-upplägg",
+          "Förslag på första MVP",
         ],
         icon: (
           <IoBulbOutline aria-hidden="true" />
@@ -79,12 +80,12 @@ const serviceCategories = [
       {
         title: "Första MVP-versionen",
         subtitle:
-          "För dig som vill testa idén i praktiken",
-        text: "Jag bygger en enklare första version med de viktigaste funktionerna.",
+          "För dig som vill börja testa din idé",
+        text: "Jag bygger en första fungerande version med de viktigaste delarna, så att idén går att testa och utveckla vidare.",
         features: [
           "Grundläggande användarflöde",
           "Responsivt gränssnitt",
-          "Utvalda kärnfunktioner",
+          "De viktigaste funktionerna",
         ],
         icon: (
           <MdOutlineRocketLaunch aria-hidden="true" />
@@ -93,12 +94,12 @@ const serviceCategories = [
       {
         title: "Vidareutveckling",
         subtitle:
-          "För dig som redan har en digital produkt",
-        text: "Jag hjälper dig att förbättra, bygga ut eller modernisera en befintlig lösning.",
+          "För dig som redan har en digital lösning",
+        text: "Jag hjälper dig att förbättra det som redan finns genom att utveckla funktioner, gränssnitt eller struktur.",
         features: [
           "Nya funktioner",
           "Förbättrat gränssnitt",
-          "Kodförbättringar",
+          "Förbättring av befintlig kod",
         ],
         icon: (
           <IoMdTrendingUp aria-hidden="true" />
