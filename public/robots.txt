@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://theresewebdesign.se/sitemap.xml
