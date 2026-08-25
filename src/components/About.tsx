@@ -3,7 +3,6 @@ import aboutImage from "../assets/images/profile2.webp";
 import {
   UserRound,
   BriefcaseBusiness,
-  Accessibility,
 } from "lucide-react";
 import { FiEye } from "react-icons/fi";
 
