@@ -15,12 +15,12 @@ const Contact = () => {
           </h2>
 
           <p className="contact__description">
-            Behöver du en ny hemsida, vill
-            förbättra den du redan har eller har
-            en idé du vill utveckla? Hör gärna av
-            dig så pratar vi om vad du behöver och
-            hur jag kan hjälpa dig vidare. Första
-            samtalet är kostnadsfritt.
+            Behöver du en ny hemsida, kanske vill
+            du förbättra den du redan har eller
+            har en idé du vill utveckla? Hör gärna
+            av dig så pratar vi om hur jag kan
+            hjälpa dig. Första samtalet är
+            kostnadsfritt.
           </p>
 
           <div className="contact__info">

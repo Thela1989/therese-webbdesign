@@ -221,8 +221,8 @@
     padding: 5rem 1.25rem;
   }
 
-  .services__header {
-    margin-bottom: 3rem;
+  .services__header h2 {
+    font-size: 2.3rem;
   }
 
   .services__category {
