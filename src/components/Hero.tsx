@@ -17,17 +17,18 @@ export default function Hero() {
       <div className="hero__inner">
         <div className="hero__content">
           <p className="hero__eyebrow">
-            Frontendutvecklare & Webdesigner
+            FRONTENDUTVECKLARE & DIGITAL
+            PRODUKTUTVECKLARE
           </p>
 
           <Title
             className="hero__title"
             order={1}
           >
-            Tydliga och användarvänliga
-            webbplatser för{" "}
+            Tydliga digitala lösningar som fyller
+            ett verkligt{" "}
             <span className="colored_word">
-              Småföretag
+              syfte
             </span>
           </Title>
 

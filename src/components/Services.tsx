@@ -1,104 +1,55 @@
 import "../Services.css";
-import { IoBulbOutline } from "react-icons/io5";
-import { PiPackageDuotone } from "react-icons/pi";
+
 import { IoMdTrendingUp } from "react-icons/io";
 import { MdOutlineRocketLaunch } from "react-icons/md";
 import { RiComputerLine } from "react-icons/ri";
-import { FiSearch } from "react-icons/fi";
 
 const serviceCategories = [
   {
-    id: "webb",
-    title: "Webbplatser",
+    id: "tjanster",
+    title: "Digitala lösningar",
     description:
-      "För dig som behöver en ny hemsida eller vill förbättra den du redan har.",
+      "Jag hjälper dig att skapa, förbättra eller vidareutveckla tydliga och användarvänliga digitala lösningar.",
     packages: [
       {
-        title: "Mini-analys",
+        title: "Hemsidor & förbättringar",
         subtitle:
-          "För dig som redan har en hemsida",
-        text: "Jag går igenom din hemsida och lyfter fram vad som kan bli tydligare och enklare för dina besökare.",
+          "För dig som behöver en ny hemsida eller vill utveckla den du redan har",
+        text: "Jag hjälper dig att skapa en tydlig, responsiv och användarvänlig hemsida som passar din verksamhet och gör det enkelt för besökaren att hitta rätt.",
         features: [
-          "Genomgång av din hemsida",
-          "3 konkreta förbättringsförslag",
-          "Fokus på tydlighet, mobil och användarvänlighet",
-        ],
-        icon: <FiSearch aria-hidden="true" />,
-      },
-      {
-        title: "Webbstart",
-        subtitle:
-          "För dig som behöver en mindre hemsida",
-        text: "För dig som vill komma igång med en tydlig hemsida där kunder enkelt kan förstå vad du erbjuder och kontakta dig.",
-        features: [
-          "Responsiv hemsida",
-          "Tydlig presentation av ditt företag",
-          "Kontaktsektion",
+          "Ny hemsida eller förbättring av befintlig",
+          "Responsiv design",
+          "Struktur och användarvänlighet",
+          "Tillgänglighet och tydlighet",
         ],
         icon: (
           <RiComputerLine aria-hidden="true" />
         ),
       },
       {
-        title: "Webbpaket",
+        title: "Appar & digitala produkter",
         subtitle:
-          "För dig som behöver en större hemsida",
-        text: "För dig som behöver mer utrymme för att presentera ditt företag, dina tjänster och ditt innehåll.",
+          "För dig som har en idé du vill utveckla",
+        text: "Jag hjälper dig att ta en digital idé från första tanke till en tydlig och fungerande första version som går att testa och utveckla vidare.",
         features: [
-          "Flera sidor eller sektioner",
-          "Design anpassad efter ditt företag",
-          "Mobilanpassning",
-          "Kontaktformulär",
-        ],
-        icon: (
-          <PiPackageDuotone aria-hidden="true" />
-        ),
-      },
-    ],
-  },
-  {
-    id: "appar",
-    title: "Appar och digitala lösningar",
-    description:
-      "För dig som har en appidé eller digital idé och vill ta den vidare till en första fungerande version.",
-    packages: [
-      {
-        title: "Idé och MVP-planering",
-        subtitle:
-          "För dig som vill få struktur på din idé",
-        text: "Vi går igenom vem lösningen är till för, vilket problem den ska lösa och vad som behöver finnas med i en första version.",
-        features: [
-          "Genomgång av idén",
-          "Målgrupp och behov",
+          "Strukturering av idé",
           "Prioritering av funktioner",
-          "Förslag på första MVP",
-        ],
-        icon: (
-          <IoBulbOutline aria-hidden="true" />
-        ),
-      },
-      {
-        title: "Första MVP-versionen",
-        subtitle:
-          "För dig som vill börja testa din idé",
-        text: "Jag bygger en första fungerande version med de viktigaste delarna, så att idén går att testa och utveckla vidare.",
-        features: [
-          "Grundläggande användarflöde",
-          "Responsivt gränssnitt",
-          "De viktigaste funktionerna",
+          "MVP-utveckling",
+          "Användarflöden och gränssnitt",
         ],
         icon: (
           <MdOutlineRocketLaunch aria-hidden="true" />
         ),
       },
       {
-        title: "Vidareutveckling",
+        title: "Frontend & vidareutveckling",
         subtitle:
           "För dig som redan har en digital lösning",
-        text: "Jag hjälper dig att förbättra det som redan finns genom att utveckla funktioner, gränssnitt eller struktur.",
+        text: "Jag hjälper till att vidareutveckla befintliga hemsidor och applikationer med fokus på gränssnitt, funktionalitet och struktur.",
         features: [
           "Nya funktioner",
-          "Förbättrat gränssnitt",
+          "Förbättring av gränssnitt",
+          "React och TypeScript",
           "Förbättring av befintlig kod",
         ],
         icon: (
@@ -168,12 +119,12 @@ const Services = () => {
 
       <div className="services__cta">
         <a
-          href="https://calendar.app.google/tA5U3EA2UXkc5hoU6"
+          href="mailto:hej@theresewebbdesign.se"
           target="_blank"
           rel="noopener noreferrer"
           className="button button--primary"
         >
-          Boka kostnadsfritt möte
+          Kontakta mig
         </a>
       </div>
     </section>

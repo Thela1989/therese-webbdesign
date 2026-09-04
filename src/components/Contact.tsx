@@ -11,16 +11,19 @@ const Contact = () => {
           </p>
 
           <h2>
-            Har du en idé du vill ta vidare?
+            Har du en{" "}
+            <span className="colored_word">
+              idé{" "}
+            </span>
+            du vill ta vidare?
           </h2>
 
           <p className="contact__description">
-            Behöver du en ny hemsida, kanske vill
-            du förbättra den du redan har eller
-            har en idé du vill utveckla? Hör gärna
-            av dig så pratar vi om hur jag kan
-            hjälpa dig. Första samtalet är
-            kostnadsfritt.
+            Behöver du hjälp med en hemsida, app
+            eller annan digital lösning? Hör gärna
+            av dig och berätta vad du vill skapa,
+            förbättra eller utveckla, så ser vi
+            hur jag kan hjälpa dig vidare.
           </p>
 
           <div className="contact__info">
@@ -51,7 +54,7 @@ const Contact = () => {
             href="mailto:hej@theresewebbdesign.se"
             className="contact__button"
           >
-            Skicka mejl
+            Kontakta mig
             <FiMail
               className="contact__button-icon"
               aria-hidden="true"

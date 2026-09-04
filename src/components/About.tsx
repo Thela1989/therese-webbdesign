@@ -18,17 +18,21 @@ export default function About() {
 
             <h2>
               Mer än kod – jag skapar digitala
-              lösningar som gör skillnad
+              lösningar som gör{" "}
+              <span className="colored_word">
+                skillnad
+              </span>
             </h2>
 
             <p className="about__lead">
-              Jag är frontendutvecklare och
-              webbdesigner med ett öga för
-              detaljer, struktur och
-              användarvänlighet. Mitt mål är att
-              skapa lösningar som inte bara ser
-              bra ut, utan som faktiskt fyller ett
-              behov och gör vardagen enklare.
+              Jag är frontendutvecklare och gillar
+              att skapa tydliga och
+              användarvänliga digitala lösningar.
+              För mig handlar utveckling inte bara
+              om hur något ser ut, utan om att
+              förstå vad det ska hjälpa till med
+              och bygga en lösning som fungerar i
+              praktiken.
             </p>
           </div>
 
@@ -54,20 +58,21 @@ export default function About() {
             </div>
 
             <h3>
-              Frontendutvecklare & webbdesigner
+              Frontend & digital produktutveckling
             </h3>
 
             <p>
               Jag gillar att kombinera teknik,
-              design och användarvänlighet för att
-              skapa moderna och genomtänkta
-              hemsidor och appar.
+              struktur och design för att skapa
+              tydliga och användarvänliga digitala
+              lösningar.
             </p>
 
             <p>
-              För mig är det viktigt att det jag
-              bygger är tydligt, användbart och
-              fyller ett verkligt behov.
+              För mig är det viktigt att förstå
+              vad lösningen ska hjälpa till med
+              och bygga något som fungerar bra i
+              praktiken.
             </p>
             <div className="about-card__tags">
               <span>Tydlighet</span>
